@@ -1,6 +1,6 @@
 const sidebarLinks = [
     {
-        imgUrl: '/icons/something.svg',
+        imgUrl: '/icons/Home.svg',
         route: '/',
         label: 'Home'
     },
