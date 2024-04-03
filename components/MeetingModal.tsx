@@ -5,14 +5,14 @@ interface MeetingModalProps {
     onClose: () => void,
     title: string,
     className?: string,
-    buttontext?: string,
+    buttonText?: string,
     handleClick?: () => void,
     image?: string,
     buttonIcon?: string,
     children?: ReactNode
 }
 
-const MeetingModal = ({ isOpen, onClose, title, className, children, buttontext, handleClick, image, buttonIcon}: MeetingModalProps) => {
+const MeetingModal = ({ isOpen, onClose, title, className, children, buttonText, handleClick, image, buttonIcon}: MeetingModalProps) => {
   return (
     <div>MeetingModal</div>
   )
