@@ -12,7 +12,7 @@ const MeetingTypeList = () => {
     const router = useRouter()
 
     const createMeeting = () => {
-
+        
     }
 
   return (
